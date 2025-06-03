@@ -84,7 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['edit_exam'])) {
         $stmtExam->execute();
 
         $conn->commit();
-        echo "<script>alert('Ujian berhasil diupdate!'); window.location='manage_exams.php';</script>";
+        echo "<script>alert('Ujian berhasil diupdate!'); window.location='dashboard.php';</script>";
         exit();
     } catch (Exception $e) {
         $conn->rollback();

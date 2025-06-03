@@ -447,6 +447,10 @@ $result_exams = mysqli_query($conn, "SELECT * FROM ujian");
             <li class="nav-item"><a href="manage_users.php" class="nav-link text-white">Manajemen Pengguna</a></li>
             <li class="nav-item"><a href="manage_kelas.php" class="nav-link text-white">Manajemen Kelas</a></li>
             <li class="nav-item"><a href="manage_pelajaran.php" class="nav-link text-white">Manajemen Pelajaran</a></li>
+            <li class="nav-item"><a href="jadwal_ujian.php" class="nav-link text-white">Jadwal Ujian</a></li>
+            <li class="nav-item">
+                    
+                </li>
             
         </ul>
     </div>

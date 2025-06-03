@@ -41,10 +41,10 @@ $qUjian = mysqli_query($conn, "
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
-        <a class="navbar-brand" href="#">SEKIHMA - Kepala Sekolah</a>
+        <a class="navbar-brand" href="#">Kepala Sekolah</a>
         <div class="d-flex">
             <span class="navbar-text me-3">Halo, <?= $_SESSION["nama"] ?? 'Kepala Sekolah'; ?></span>
-            <a href="../logout.php" class="btn btn-outline-light btn-sm">Logout</a>
+            <a href="../index.php" class="btn btn-outline-light btn-sm">Logout</a>
         </div>
     </div>
 </nav>

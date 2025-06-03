@@ -130,13 +130,14 @@ $result_jurusan = mysqli_query($conn, "SELECT * FROM jurusan");
 
 <div class="d-flex">
     <!-- Sidebar -->
-    <div id="sidebar" class="bg-secondary text-white p-3">
+    <div id="sidebar" class="bg-dark text-white p-3">
         <h4>Menu</h4>
         <ul class="nav flex-column">
             <li class="nav-item"><a href="dashboard.php" class="nav-link text-white">Dashboard</a></li>
             <li class="nav-item"><a href="manage_users.php" class="nav-link text-white">Manajemen Pengguna</a></li>
             <li class="nav-item"><a href="manage_kelas.php" class="nav-link text-white">Manajemen Kelas</a></li>
             <li class="nav-item"><a href="manage_pelajaran.php" class="nav-link text-white">Manajemen Pelajaran</a></li>
+            <li class="nav-item"><a href="jadwal_ujian.php" class="nav-link text-white">Jadwal Ujian</a></li>
 
             <li class="nav-item"><a href="?logout=true" class="nav-link text-white">Logout</a></li>
         </ul>

@@ -25,7 +25,7 @@ if (!isset($_SESSION["role"]) || $_SESSION["role"] != "admin") {
                     <a class="nav-link" href="manage_users.php">Kelola Pengguna</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/webrevisipg/index.php">Logout</a>
+                    <a class="nav-link" href="../index.php">Logout</a>
                 </li>
             </ul>
         </div>
@@ -39,6 +39,9 @@ if (!isset($_SESSION["role"]) || $_SESSION["role"] != "admin") {
             <h2 class="card-title">Dashboard Admin</h2>
             <p>Selamat datang, Admin!</p>
             <a href="manage_users.php" class="btn btn-primary">Kelola Pengguna</a>
+            <a href="manage_kelas.php" class="btn btn-danger">Kelola Kelas</a>
+            <a href="manage_pelajaran.php" class="btn btn-warning">Kelola Pelajaran</a>
+            <a href="jadwal_ujian.php" class="btn btn-primary">Jadwal Ujian</a>
         </div>
     </div>
 </div>
