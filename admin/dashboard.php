@@ -310,7 +310,7 @@ $username = $_SESSION['username'] ?? 'Admin';
                         <i class="bi bi-calendar-event"></i>
                     </div>
                     <h3 class="menu-title">Jadwal Ujian</h3>
-                    <p class="menu-description">Buat dan kelola jadwal ujian. Atur waktu, durasi, dan peserta ujian.</p>
+                    <p class="menu-description">Buat dan kelola jadwal ujian, Atur waktu, durasi, dan peserta ujian.</p>
                     <div class="d-flex align-items-center">
                         <span class="badge bg-primary me-2">Akses</span>
                         <i class="bi bi-arrow-right ms-auto"></i>
