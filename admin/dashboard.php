@@ -320,7 +320,7 @@ $username = $_SESSION['username'] ?? 'Admin';
 
             <!-- Footer -->
             <div class="footer">
-                <p>Sistem Ujian Online &copy; <?= date('Y') ?> </p>
+                <p>Sistem Ujian online &copy; <?= date('Y') ?> </p>
             </div>
         </div>
     </div>
