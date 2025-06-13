@@ -369,7 +369,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['edit_exam'])) {
 
 
         $stmtExam = $conn->prepare("UPDATE ujian SET id_guru = ?, id_jurusan = ?, id_kelas = ?, id_pelajaran = ?, nama_ujian = ?, waktu_mulai = ?, waktu_selesai = ? WHERE id_ujian = ?");
-        $stmtExam->bind_param("iiisssssi", $id_guru, $id_jurusan, $id_kelas, $id_pelajaran, $nama_ujian, $waktu_mulai, $waktu_selesai, $id_ujian);
+        $stmtExam->bind_param("iiisssss", $id_guru, $id_jurusan, $id_kelas, $id_pelajaran, $nama_ujian, $waktu_mulai, $waktu_selesai, $id_ujian);
         $stmtExam->execute();
 
 

@@ -234,7 +234,7 @@ $result_exams = $conn->query("SELECT ujian.*, guru.nama_guru, jurusan.nama_jurus
     <a href="dashboard.php" class="active"><i class="fa fa-list"></i> Dashboard</a>
     <a href="manage_users.php" ></i>Manajemen User</a>
     <a href="manage_kelas.php" ></i>Manajemen Kelas</a>
-    <a href="manage_Pelajaran.php" ></i>Manajemen </a>
+    <a href="manage_pelajaran.php" ></i>Manajemen pelajaran</a>
     <a href="jadwal_ujian.php" ></i>Manajemen Ujian</a>
     
     
